@@ -31,14 +31,26 @@ public class Player extends Entity {
 
     public void getPlayerImage() {
         try {
-            up1 = ImageIO.read(getClass().getResourceAsStream("/player/boy_up_1.png"));
-            up2 = ImageIO.read(getClass().getResourceAsStream("/player/boy_up_2.png"));
-            down1 = ImageIO.read(getClass().getResourceAsStream("/player/boy_down_1.png"));
-            down2 = ImageIO.read(getClass().getResourceAsStream("/player/boy_down_2.png"));
-            left1 = ImageIO.read(getClass().getResourceAsStream("/player/boy_left_1.png"));
-            left2 = ImageIO.read(getClass().getResourceAsStream("/player/boy_left_2.png"));
-            right1 = ImageIO.read(getClass().getResourceAsStream("/player/boy_right_1.png"));
-            right2 = ImageIO.read(getClass().getResourceAsStream("/player/boy_right_2.png"));
+            up1 = ImageIO.read(getClass().getResourceAsStream("/player/run_up_1.png"));
+            up2 = ImageIO.read(getClass().getResourceAsStream("/player/run_up_2.png"));
+            up3 = ImageIO.read(getClass().getResourceAsStream("/player/run_up_3.png"));
+            up4 = ImageIO.read(getClass().getResourceAsStream("/player/run_up_4.png"));
+
+
+            down1 = ImageIO.read(getClass().getResourceAsStream("/player/run_down_1.png"));
+            down2 = ImageIO.read(getClass().getResourceAsStream("/player/run_down_2.png"));
+            down3 = ImageIO.read(getClass().getResourceAsStream("/player/run_down_3.png"));
+            down4 = ImageIO.read(getClass().getResourceAsStream("/player/run_down_4.png"));
+
+            left1 = ImageIO.read(getClass().getResourceAsStream("/player/run_left_1.png"));
+            left2 = ImageIO.read(getClass().getResourceAsStream("/player/run_left_2.png"));
+            left3 = ImageIO.read(getClass().getResourceAsStream("/player/run_left_3.png"));
+            left4 = ImageIO.read(getClass().getResourceAsStream("/player/run_left_4.png"));
+
+            right1 = ImageIO.read(getClass().getResourceAsStream("/player/run_right_1.png"));
+            right2 = ImageIO.read(getClass().getResourceAsStream("/player/run_right_2.png"));
+            right3 = ImageIO.read(getClass().getResourceAsStream("/player/run_right_3.png"));
+            right4 = ImageIO.read(getClass().getResourceAsStream("/player/run_right_4.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -70,10 +82,14 @@ public class Player extends Entity {
             spriteCounter++;
             //If counter hits 10 it changes the sprite
             //Player changes every 10 frames
-            if(spriteCounter > 10) {
+            if(spriteCounter > 8) {
                 if (spriteNum == 1) {
                     spriteNum = 2;
                 } else if (spriteNum == 2) {
+                    spriteNum = 3;
+                } else if (spriteNum == 3) {
+                    spriteNum = 4;
+                } else if (spriteNum == 4) {
                     spriteNum = 1;
                 }
 
@@ -100,6 +116,12 @@ public class Player extends Entity {
                 if(spriteNum == 2){
                     image = up2;
                 }
+                if(spriteNum == 3){
+                    image = up3;
+                }
+                if(spriteNum == 4){
+                    image = up4;
+                }
 
                 break;
             case "down":
@@ -110,6 +132,12 @@ public class Player extends Entity {
                 if(spriteNum == 2){
                     image = down2;
                 }
+                if(spriteNum == 3){
+                    image = down3;
+                }
+                if(spriteNum == 4){
+                    image = down4;
+                }
 
                 break;
             case "left":
@@ -119,7 +147,12 @@ public class Player extends Entity {
                 if(spriteNum == 2){
                     image = left2;
                 }
-
+                if(spriteNum == 3){
+                    image = left3;
+                }
+                if(spriteNum == 4){
+                    image = left4;
+                }
                 break;
             case "right":
                 if(spriteNum == 1){
@@ -127,6 +160,12 @@ public class Player extends Entity {
                 }
                 if(spriteNum == 2){
                     image = right2;
+                }
+                if(spriteNum == 3){
+                    image = right3;
+                }
+                if(spriteNum == 4){
+                    image = right4;
                 }
 
                 break;

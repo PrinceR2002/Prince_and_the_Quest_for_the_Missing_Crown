@@ -4,24 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dfa0c69-8384-46fd-871a-4f2e5e4a77e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_down_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_down_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_left_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_left_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_right_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_right_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_up_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player/boy_up_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/KeyHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="9dfa0c69-8384-46fd-871a-4f2e5e4a77e1" name="Changes" comment="Main Character movement">
+      <change afterPath="$PROJECT_DIR$/res/player/run_down_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/run_down_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/run_down_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/run_down_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/run_right_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/run_right_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/run_right_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/run_right_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/run_up_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/run_up_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/run_up_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player/run_up_4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prince and the Quest for the Missing Crown.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Prince and the Quest for the Missing Crown.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/player/boy_down_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/player/boy_down_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/player/boy_left_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/player/boy_left_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/player/boy_right_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/player/boy_right_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/player/boy_up_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/player/boy_up_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +44,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "PrinceR2002"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PrinceR2002&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PrinceR2002/Prince_and_the_Quest_for_the_Missing_Crown.git",
-    "accountId": "f9a81600-b56d-4fb4-a5be-f59cea7cde82"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PrinceR2002/Prince_and_the_Quest_for_the_Missing_Crown.git&quot;,
+    &quot;accountId&quot;: &quot;f9a81600-b56d-4fb4-a5be-f59cea7cde82&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -77,6 +83,29 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/player" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/player" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="Prince and the Quest for the Missing Crown" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,6 +116,30 @@
       <option name="presentableId" value="Default" />
       <updated>1724089307033</updated>
     </task>
+    <task id="LOCAL-00001" summary="Main Character movement">
+      <option name="closed" value="true" />
+      <created>1724176541037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724176541037</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Main Character movement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main Character movement" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
