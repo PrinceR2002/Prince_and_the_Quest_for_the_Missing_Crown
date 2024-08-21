@@ -1,6 +1,7 @@
 package main;
 
 import entity.Player;
+import tile.TileManager;
 
 import javax.swing.*;
 import java.awt.*;
@@ -25,6 +26,9 @@ public class GamePanel extends JPanel implements Runnable {
 
     //FPS
     int FPS = 60;
+
+
+    TileManager tileM = new TileManager(this);
 
 
     //Key Handler
@@ -119,6 +123,7 @@ public class GamePanel extends JPanel implements Runnable {
 
         Graphics2D g2 = (Graphics2D) g;
 
+        tileM.draw(g2);
         player.draw(g2);
 
         //Dispose of this graphics context and release any system resources that it is using
