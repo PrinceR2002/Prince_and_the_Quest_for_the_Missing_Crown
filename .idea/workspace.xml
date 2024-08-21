@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dfa0c69-8384-46fd-871a-4f2e5e4a77e1" name="Changes" comment="Main Character movement">
-      <change afterPath="$PROJECT_DIR$/res/tiles/grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/tiles/wall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/tiles/water.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/maps/testmap.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/player/run_down_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/player/run_down_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +33,12 @@
     &quot;assignee&quot;: &quot;PrinceR2002&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PrinceR2002/Prince_and_the_Quest_for_the_Missing_Crown.git",
-    "accountId": "60c53314-9f53-43c1-98f4-3f96806982ad"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PrinceR2002/Prince_and_the_Quest_for_the_Missing_Crown.git&quot;,
+    &quot;accountId&quot;: &quot;60c53314-9f53-43c1-98f4-3f96806982ad&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -67,8 +67,8 @@
       <recent name="$PROJECT_DIR$/res/player" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/res/tiles" />
       <recent name="$PROJECT_DIR$/res/player" />
+      <recent name="$PROJECT_DIR$/res/tiles" />
     </key>
   </component>
   <component name="RunManager">
@@ -114,16 +114,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Main Character movement" />
     <option name="LAST_COMMIT_MESSAGE" value="Main Character movement" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/entity/Player.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

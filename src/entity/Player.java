@@ -56,11 +56,39 @@ public class Player extends Entity {
         }
     }
 
+    //Attempting idle movement
+    public boolean notMoving() {
+        if (keyH.upPressed == false && keyH.downPressed == false && keyH.leftPressed == false && keyH.rightPressed == false)
+            return true;
+
+        return false;
+    }
+
     //Update method gets called 60 times per second (60FPS)
     public void update() {
 
+        //IDLE MOVEMENT
+   /*     while(notMoving() == true){
+            switch (direction) {
+                case "up":
+                    if (spriteNum == 1) {
+                        image = up1;
+                    }
+                    if (spriteNum == 2) {
+                        image = up2;
+                    }
+                    if (spriteNum == 3) {
+                        image = up3;
+                    }
+                    if (spriteNum == 4) {
+                        image = up4;
+                    }
+
+                    break;
+            }
+        }*/
         //This statement makes the player move only when the keys are pressed
-        if(keyH.upPressed == true || keyH.downPressed == true || keyH.leftPressed == true || keyH.rightPressed == true){
+        if (keyH.upPressed == true || keyH.downPressed == true || keyH.leftPressed == true || keyH.rightPressed == true) {
 
 
             if (keyH.upPressed == true) {
@@ -82,7 +110,7 @@ public class Player extends Entity {
             spriteCounter++;
             //If counter hits 10 it changes the sprite
             //Player changes every 10 frames
-            if(spriteCounter > 8) {
+            if (spriteCounter > 3) {
                 if (spriteNum == 1) {
                     spriteNum = 2;
                 } else if (spriteNum == 2) {
@@ -110,61 +138,61 @@ public class Player extends Entity {
 
         switch (direction) {
             case "up":
-                if(spriteNum == 1){
+                if (spriteNum == 1) {
                     image = up1;
                 }
-                if(spriteNum == 2){
+                if (spriteNum == 2) {
                     image = up2;
                 }
-                if(spriteNum == 3){
+                if (spriteNum == 3) {
                     image = up3;
                 }
-                if(spriteNum == 4){
+                if (spriteNum == 4) {
                     image = up4;
                 }
 
                 break;
             case "down":
 
-                if(spriteNum == 1){
+                if (spriteNum == 1) {
                     image = down1;
                 }
-                if(spriteNum == 2){
+                if (spriteNum == 2) {
                     image = down2;
                 }
-                if(spriteNum == 3){
+                if (spriteNum == 3) {
                     image = down3;
                 }
-                if(spriteNum == 4){
+                if (spriteNum == 4) {
                     image = down4;
                 }
 
                 break;
             case "left":
-                if(spriteNum == 1){
+                if (spriteNum == 1) {
                     image = left1;
                 }
-                if(spriteNum == 2){
+                if (spriteNum == 2) {
                     image = left2;
                 }
-                if(spriteNum == 3){
+                if (spriteNum == 3) {
                     image = left3;
                 }
-                if(spriteNum == 4){
+                if (spriteNum == 4) {
                     image = left4;
                 }
                 break;
             case "right":
-                if(spriteNum == 1){
+                if (spriteNum == 1) {
                     image = right1;
                 }
-                if(spriteNum == 2){
+                if (spriteNum == 2) {
                     image = right2;
                 }
-                if(spriteNum == 3){
+                if (spriteNum == 3) {
                     image = right3;
                 }
-                if(spriteNum == 4){
+                if (spriteNum == 4) {
                     image = right4;
                 }
 
