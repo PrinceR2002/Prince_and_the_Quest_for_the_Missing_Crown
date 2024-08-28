@@ -4,7 +4,10 @@ import java.awt.image.BufferedImage;
 
 public class Entity {
 
-    public int x, y;
+    //Changing so the player does not move but instead the map does
+    //Game Camera
+
+    public int worldX, worldY;
     public int speed;
 
     //BufferedImage: it describes an Image with an accessible buffer
