@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dfa0c69-8384-46fd-871a-4f2e5e4a77e1" name="Changes" comment="Main Character movement">
-      <change afterPath="$PROJECT_DIR$/res/tiles/grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/tiles/wall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/tiles/water.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9dfa0c69-8384-46fd-871a-4f2e5e4a77e1" name="Changes" comment="Tile management introduction" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +26,12 @@
     &quot;assignee&quot;: &quot;PrinceR2002&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PrinceR2002/Prince_and_the_Quest_for_the_Missing_Crown.git",
-    "accountId": "60c53314-9f53-43c1-98f4-3f96806982ad"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PrinceR2002/Prince_and_the_Quest_for_the_Missing_Crown.git&quot;,
+    &quot;accountId&quot;: &quot;60c53314-9f53-43c1-98f4-3f96806982ad&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -113,7 +106,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Main Character movement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main Character movement" />
+    <MESSAGE value="Tile management introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tile management introduction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
